@@ -1,0 +1,43 @@
+/* Anything between these two tags will be ignored by the browser */
+
+h1 {
+    color: rgb(75, 123, 75); 
+}
+
+p{
+    color: blanchedalmond;
+    background-color: rgb(93, 115, 132);
+}
+
+.orangep{
+    color: black;
+    background-color: rgb(242, 168, 57);
+}
+
+#greenp {
+    color: white;
+    background-color: rgb(45, 65, 101);
+}
+
+.spanstyle{
+    color: white;
+}
+
+
+
+
+a{
+    color: black;
+}
+
+a:active {
+    color:aliceblue;
+}
+
+a: visited {
+color: pink;     
+}
+
+a: hover {
+    color: black;
+}

@@ -1,43 +1,63 @@
-/* Anything between these two tags will be ignored by the browser */
-
 h1 {
-    color: rgb(75, 123, 75); 
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-p{
-    color: blanchedalmond;
-    background-color: rgb(93, 115, 132);
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
 }
 
-.orangep{
-    color: black;
-    background-color: rgb(242, 168, 57);
+nav li {
+    border: 1px solid black;
+    width: 150px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: rgb(104, 126, 71);
+    display: inline-block;
 }
 
-#greenp {
-    color: white;
-    background-color: rgb(45, 65, 101);
+nav li a {
+    color: white; 
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+     background-image: linear-gradient(to bottom, #000000, #165fe4, #1651d2, #1543c0, #1335ae);
 }
 
-.spanstyle{
-    color: white;
+nav li a:hover {
+    background-color: rgb(65, 134, 149);
+     background-image: linear-gradient(to top, hsl(0, 0%, 99%), #165fe4, #1651d2, #1543c0, #1335ae);
 }
 
 
-
-
-a{
-    color: black;
+.blocking {
+    display: block;
+    margin-bottom: 20px;
 }
 
-a:active {
-    color:aliceblue;
+.bordertop {
+  border-top: 5px solid #ff0000;
 }
 
-a: visited {
-color: pink;     
+.borderbottom {
+  border-bottom: 5px solid #00ff00;
 }
 
-a: hover {
-    color: black;
+.borderright {
+  border-right: 5px solid #0000ff;
 }
+
+.borderleft {
+  border-left: 5px solid #ff00ff;
+}
+
+.rainbowborder {
+  border-top: 5px solid #ff0000;
+  border-bottom: 5px solid #00ff00;
+  border-right: 5px solid #0000ff;
+  border-left: 5px solid #ff00ff;
+}    

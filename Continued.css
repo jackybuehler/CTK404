@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(219, 203, 179);
+    background-image: url(CornFest.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main {
+    background-color: lightgray;
+}
+
+.imgbox {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+
+
+.customtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.fontcombined {
+    font: bold 12px Courier, monospace;
+}
+
+.boxmodel {
+    border: 2px solid #0000FF;
+    padding: 20px;
+    margin: 10px 10px;
+    background-color: rgb(78, 154, 78);
+
+}
+
+.zeroout {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.textright {
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+    letter-spacing: 20px;
+}
+
+.textcenter {
+    text-align: center;
+    line-height: 20px;
+}   
+
+.textjustify {
+    text-align: justify;
+}

@@ -31,11 +31,11 @@ a:visited {
     color:green;
 }
 
-a: active {
-color: black;     
+a:active {
+    color: black;
 }
 
-a: hover {
+a:hover {
     color: yellow;
 }
 

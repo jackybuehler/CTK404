@@ -1,0 +1,47 @@
+
+h1 {
+    color: grey;
+}
+
+h2 {
+    color: #faca77;
+}
+
+h3 {
+    color: rgb(85, 147, 85);
+    background-color: #112911;
+}
+
+h4 {
+    color: rgb(137, 181, 192);
+}
+
+p{
+    color: #b187ba;
+}   
+
+.orangep{
+    color: rgb(126, 180, 137);
+    background-color: rgb(19, 49, 21);
+}
+
+a{
+    color: red;
+}
+
+a:active {
+    color:black;
+}
+
+a: visited {
+color: green;     
+}
+
+a: hover {
+    color: yellow;
+}
+
+
+.spanstyle{
+    color: orange ;
+}

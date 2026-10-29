@@ -1,30 +1,102 @@
-.customtext {
-    font-family: Arial, Helvetica , sans-serif;
+body {
+background-image: url("a62.png");
 }
 
-.textcenter {
-    text-align: center;
-}
-
-.textjustify {
-    text-align: justify;
-}
-
-.orange-text {
-    color: orange;
+header {
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
     font-weight: normal;
-    font-style: italic;
+    font-family: "Helvetica", sans-serif;
+    font-style: normal;
+    grid-column: span 12;
 }
 
-.imgbox {
-    border: 2px solid black;
+h1 {
+    font-weight: normal;
+}
+h2 {
+    border-bottom: 4px solid black;
+    margin-right: 10px;
+}
+
+nav{
+grid-column: span 3;
+}
+
+nav li {
+    width: 150px;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: red;
+    display: inline-block;
+    color: white;
+
+}
+nav li a {
+    color: white; 
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: darkred;
+
+}
+
+
+
+.inlinelink{
+color: red;
+font-weight: bold;
+text-decoration: none;
+}
+
+.inlinelink:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+main {
+    grid-column: span 9;
+}
+
+footer{
+    grid-column: span 12;
+    font-family: "verdana", sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-top: 5px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: white;
+    border: 5px solid black;
+    width: 1200px;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.floatimg {
+    border: 5px solid black;
     padding: 10px;
     margin: 10px;
-    background-color: yellow;
+    float: left;
 }
 
-body {
-    background-color: lightgray;
-background-image: url("1Uptown.jpg");
-    
+.clearfloat {
+    clear: both;
 }

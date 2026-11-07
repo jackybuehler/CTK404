@@ -1,59 +1,91 @@
 body {
-background-image: url("a62.png");
+background-color: gray;
 }
 
 header {
-    background-color: black;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 10px; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 5px;
+    background: linear-gradient(to top, darkblue, blue);
+    color: lightblue;
     font-weight: normal;
+    padding-left: 5px;
     font-family: "Helvetica", sans-serif;
     font-style: normal;
     grid-column: span 12;
+}
+header a {
+    color: lightblue;
+    text-decoration: none;
+}
+header a:hover,
+header a:focus {
+    color: white;
+    text-decoration: underline;
+}
+header a:visited,
+header a:active {
+    color: #cfe8ff;
 }
 
 h1 {
     font-weight: normal;
 }
 h2 {
-    border-bottom: 4px solid black;
-    margin-right: 10px;
+    border-bottom: 4px solid blue;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: blue;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Helvetica", sans-serif;
 }
 
 nav{
-grid-column: span 3;
+grid-column: span 12;
+grid-row: span 2;
+font-weight: bold;
+color: lightblue;
 }
-
+nav ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
 nav li {
-    width: 150px;
+    width: auto;
+    flex: 1;
     padding: 0px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    background-color: red;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background: linear-gradient(to top, darkblue, blue);
     display: inline-block;
     color: white;
-
 }
 nav li a {
-    color: white; 
+    color: lightblue;
     text-decoration: none;
     display: block;
     padding: 10px;
 }
-
 nav li a:hover {
-    background-color: darkred;
-
+    background-color: darkblue;
+    color: white;
 }
 
 
 
+.inlinelinkh1{
+color: lightblue;
+font-weight: normal;
+text-decoration: none;
+font-family: "Helvetica", sans-serif;
+}
+
+.inlinelinkh1:hover{
+    color: white;
+    text-decoration: underline;
+}
 .inlinelink{
 color: red;
 font-weight: bold;
@@ -65,25 +97,63 @@ text-decoration: none;
     text-decoration: underline;
 }
 
-main {
-    grid-column: span 9;
+
+.mainleft {
+    grid-column: span 4;
+    background-color: lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    font-weight: bold;
 }
+.mainleft2 {
+   grid-column: span 8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mainright {
+    grid-column: span 8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mainright2 {
+     grid-column: span 4;
+    background-color: lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    font-weight: bold;
+}
+.maincenter {
+    grid-column: span 4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 
 footer{
     grid-column: span 12;
     font-family: "verdana", sans-serif;
     font-style: italic;
-    text-align: center;
     background-color: red;
     color: white;
-    border-top: 5px solid black;
+    border-top: 5px solid blue;
     padding: 0px;
     margin: 0px;
 }
 
+.footerimg {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    grid-column: span 3;
+    float: left;
+}
+
 #wrapper {
     background-color: white;
-    border: 5px solid black;
+    border: 5px solid blue;
     width: 1200px;
     margin: 1em auto;
     display: grid;
@@ -91,10 +161,14 @@ footer{
 }
 
 .floatimg {
-    border: 5px solid black;
-    padding: 10px;
+    border: 5px solid blue;
     margin: 10px;
     float: left;
+}
+.floatimg2 {
+   border: 5px solid blue;
+    margin: 10px;
+    float: right; 
 }
 
 .clearfloat {
